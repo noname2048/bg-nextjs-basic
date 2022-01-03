@@ -4,6 +4,11 @@
 
 01-03에 완강
 
+## 결과물
+
+movie api (The Moive DB - api 밑 문서가 너무 좋아보인다)를 이용하여 만든 간단한 nextjs 사이트
+![result](results.png)
+
 ## 배운것
 - index.js, about.js 와 같은 파일시스템을 그대로 url 형태로 가져가는 시스템
 - next/head를 이용한 Seo 컴포넌트 작성, Layout 에서 활용하기
