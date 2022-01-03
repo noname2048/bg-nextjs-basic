@@ -1,3 +1,4 @@
+import Seo from "../../components/Seo";
 import { useRouter } from "next/router";
 
 export default function Detail({ params }) {
@@ -5,6 +6,7 @@ export default function Detail({ params }) {
   const [title, id] = params || [];
   return (
     <div>
+      <Seo title={title} />
       <h4>{title || "Loading..."}</h4>
     </div>
   );
